@@ -84,9 +84,9 @@ def update(cursor,connection):
 
 try:
     connection=mysql.connector.connect(
-        host="127.0.0.1",
+        host="********",
         user="root",
-        password="9542014566",
+        password="*********",
         database="students_db"
     )
    
