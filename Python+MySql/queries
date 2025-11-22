@@ -1,17 +1,20 @@
-create database students_db
+create database students_db;
 use  students_db;
 create table students(
     name varchar(100),
     rollno varchar(100) primary key,
     marks int
 );
-show tables
+show tables;
 
-SELECT* from students;
+select* from students;
 drop database students_db ;
 create table admin(
     username varchar(100),
     password varchar(20)
 );
  insert into admin values("vijay","1234");
- select * from admin
+ select * from admin;
+ALTER TABLE students ADD skills VARCHAR(255);
+ALTER TABLE students ADD business_idea TEXT;
+delete from students where rollno='83';
